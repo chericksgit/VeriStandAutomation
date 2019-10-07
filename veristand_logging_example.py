@@ -19,7 +19,7 @@ from System import Array
 Data_Logging_Manager_Ref = Factory().GetIDataLogging("localhost")
 
 #New TDMS Log File. First input is path to logging file. Second input is fileConflictOperation. 0 means create a new file with unique name
-TDMSLogFile_Ref = TdmsLogFile(r"C:\Users\angomez\Documents\VeriStand Projects\Engine Demo\Logs\myLog.tdms",0)
+TDMSLogFile_Ref = TdmsLogFile(r"C:\Users\chericks\Documents\VeriStand Projects\Engine Demo\Logs\myLog.tdms",0)
 
 #Add TDMS Group and one channel. Repeat for as many groups and channels.
 Group_ref = TdmsChannelGroup("myGroup")
